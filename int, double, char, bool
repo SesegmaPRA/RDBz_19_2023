@@ -13,7 +13,7 @@ int main()
 }
 int main()
 {
-    double x, y;
+    float x, y;
     x = 1.23;
     y = 2.1;
     std::cout << x*y << std::ends;
@@ -30,3 +30,35 @@ int main()
     x = true;
     std::cout << x << std::ends;
 }
+/*
+1) Программа: создать 4 переменных разного типа, продемонстрировать работу четырех арифметических операторов на выбор
+*/
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+
+    int x, y;
+    x = 123;
+    y = 2;
+  cout << x*y << ends;
+
+    float x, y;
+    x = 1.23;
+    y = 2.1;
+    cout << x*y << ends;
+
+    char x;
+    x = 'g';
+    cout << x << ends;
+
+    bool x;
+    x = true;
+    cout << x << ends;
+}
+
+    return 0;
+}
+
